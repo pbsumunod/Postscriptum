@@ -78,3 +78,8 @@
 	button {
 		line-height: calc(#{_size(element-height)} - 2px);
 	}
+
+	#btn:hover {
+		letter-spacing: _font(letter-spacing) + 0.2rem; 
+	  }
+	  
