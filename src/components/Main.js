@@ -47,7 +47,8 @@ class Main extends React.Component {
             <span className="image main">
               <img src={project01} alt="" />
             </span>
-            <h4><a href="" target="_blank" id="btn">GitHub</a> | <a href="http://postscriptum.surge.sh/" target="_blank" id="btn">Live</a></h4>
+            <h4><a href="https://github.com/pbsumunod/postscriptum" target="_blank" id="btn">GitHub</a> | <a href="http://postscriptum.surge.sh/" target="_blank" id="btn">Live</a></h4>
+            <li>To be added...</li>
           </ul>
           {close}
         </article>
@@ -61,10 +62,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Resume</h2>
           <span className="image main">
-            Click image to view the PDF version.
-            <a href="https://drive.google.com/file/d/1o8dtij263J_hlg2gV-Hik3sO0aAtSDs7/view?usp=sharing" target="_blank">
+            Sene me an email for a copy of my resume.
             <img src={resume} alt="" />
-            </a>
           </span>
           {close}
         </article>
